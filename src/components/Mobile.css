@@ -1,0 +1,199 @@
+
+    .mobile-page-mobile{
+        background-image: url('../assets/images/bg-tablet-pattern.svg');
+    }
+    .mobile-top-mobile {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .mobile-logo-mobile {
+        margin-top: 12px;
+        width: fit-content;
+    }
+
+    .main-container-mobile{
+        width: 100%;
+    }
+
+    .main-illustration-mobile{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .main-one-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-one-mobile h1{
+        color:#242d52;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 33px;
+    }
+
+    .main-one-mobile p {
+        padding: 0;
+        font-weight: bold;
+        color: #a9a297;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .main-one-mobile button{
+        width: 50%;
+        border: none;
+        background-color: #a62a0b;
+        border-radius: 25px;
+        padding: 18px 20px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        transition: background-color 0.10s;
+        text-decoration: none !important;
+    }
+
+    .main-one-mobile button:hover{
+        background-color:#a02405;
+    }
+
+    .main-link-mobile{
+        color:white;
+        font-size: 16px;
+        text-decoration: none !important;
+    }
+
+    .main-numbered-container-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-numbered-container-mobile h2{
+        background-color: #a62a0b;
+        color: white; /* White text color */
+        padding: 10px 20px; /* Padding to create space around the text */
+        font-size: 18px; /* Adjust font size as needed */
+        height: fit-content;
+        text-align: center; /* Center the text */
+        border-radius: 25px; /* Rounded corners */
+        display: inline-block; /* Ensure the element fits its content */
+        margin-top: 20px;
+    }
+
+    .main-numbered-container-moible h3{
+        background-color: #fbd5ab;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .simplify-mobile{
+        background-image: url('../assets/images/bg-simplify-section-mobile.svg');
+    }
+
+    .simplify-mobile h1{
+        text-align: center;
+    }
+
+    .simplify-mobile button{
+        display: flex;
+        width: 40%;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 25px;
+        padding: 18px 20px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        transition: background-color 0.10s;
+        text-decoration: none !important;
+    }
+
+    .simplify-mobile button:hover{
+        background-color: #f5f5f5;
+    }
+
+    .simplify-mobile Link {
+        color: a62a0b;
+    }
+
+    .footer-mobile{
+        background-color: #ffffff;
+        padding-top: 40px;
+    }
+
+    .subscription-mobile{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .subscription-mobile h2{
+        text-align: center;
+    }
+
+    .subscription-mobile input{
+        margin-left: 10px;
+        border: none;
+        border-radius: 25px;
+    }
+
+    .subscription-mobile button{
+        margin-left: 10px;
+        padding: 20px 10px;
+        border: none;
+        border-radius: 25px;
+    }
+
+    .message-mobile{
+        margin-left: 20px;
+        color: #ff0000;
+    }
+
+    .links-container-mobile {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-left: 25px;
+    }
+
+    .link-mobile {
+        color: #ffff;
+        border-radius: 5px; /* Rounded corners */
+        text-align: justify; /* Center text */
+        transition: color 0.25s;
+    }
+
+    .link-mobile:hover {
+        color: #a62a0b;
+    }
+
+    .logos-container-mobile{
+        display: grid;
+        grid-template-columns: 30px 30px 30px 30px 30px;
+        justify-content: center;
+    }
+
+    .mobile-logo-footer {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: fit-content;
+    }
